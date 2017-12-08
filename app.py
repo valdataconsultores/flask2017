@@ -12,6 +12,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'EiEiO'
 api = Api(app)
+#comentarios de prueba git
 
 @app.before_first_request
 def create_tables():
